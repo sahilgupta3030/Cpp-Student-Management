@@ -40,7 +40,6 @@ void enter()
     {
         cout << "How many students' data to store?" << endl;
         cin >> choice;
-        total += choice;
         for (int i = total; i < total + choice; i++)
         {
             cout << endl;
